@@ -3,11 +3,36 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.6.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{2C2D015A-ABCB-4069-8AF9-560B8D7ECA58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "API\API.csproj", "{2C2D015A-ABCB-4069-8AF9-560B8D7ECA58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{40221116-E1D4-497E-9442-E5BF73214680}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{40221116-E1D4-497E-9442-E5BF73214680}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{96D812AE-3BAD-4E9C-87BB-04044088B1C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{96D812AE-3BAD-4E9C-87BB-04044088B1C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{19D8C221-B0B9-4101-815F-80666765192A}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "client", "client\", "{9B5B15C0-CD2B-4B86-977F-4F5214F5F75F}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_58537"
+		Debug.AspNetCompiler.PhysicalPath = "client\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_58537\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_58537"
+		Release.AspNetCompiler.PhysicalPath = "client\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_58537\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "58537"
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,9 +42,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{2C2D015A-ABCB-4069-8AF9-560B8D7ECA58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -58,5 +80,23 @@ Global
 		{96D812AE-3BAD-4E9C-87BB-04044088B1C1}.Release|x64.Build.0 = Release|Any CPU
 		{96D812AE-3BAD-4E9C-87BB-04044088B1C1}.Release|x86.ActiveCfg = Release|Any CPU
 		{96D812AE-3BAD-4E9C-87BB-04044088B1C1}.Release|x86.Build.0 = Release|Any CPU
+		{9B5B15C0-CD2B-4B86-977F-4F5214F5F75F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B5B15C0-CD2B-4B86-977F-4F5214F5F75F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B5B15C0-CD2B-4B86-977F-4F5214F5F75F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{9B5B15C0-CD2B-4B86-977F-4F5214F5F75F}.Debug|x64.Build.0 = Debug|Any CPU
+		{9B5B15C0-CD2B-4B86-977F-4F5214F5F75F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9B5B15C0-CD2B-4B86-977F-4F5214F5F75F}.Debug|x86.Build.0 = Debug|Any CPU
+		{9B5B15C0-CD2B-4B86-977F-4F5214F5F75F}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B5B15C0-CD2B-4B86-977F-4F5214F5F75F}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{9B5B15C0-CD2B-4B86-977F-4F5214F5F75F}.Release|x64.ActiveCfg = Debug|Any CPU
+		{9B5B15C0-CD2B-4B86-977F-4F5214F5F75F}.Release|x64.Build.0 = Debug|Any CPU
+		{9B5B15C0-CD2B-4B86-977F-4F5214F5F75F}.Release|x86.ActiveCfg = Debug|Any CPU
+		{9B5B15C0-CD2B-4B86-977F-4F5214F5F75F}.Release|x86.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7E22867E-2BF1-4AE9-93AF-AC6592D44C9A}
 	EndGlobalSection
 EndGlobal
