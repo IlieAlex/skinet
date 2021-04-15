@@ -44,6 +44,11 @@ export class ShopService {
       );
   }
 
+  // tslint:disable-next-line: typedef
+  getProduct(id: number) {
+    return this.http.get<IProduct>(this.baseUrl + 'products/' + id);
+  }
+
   getBrands(): Observable<IBrand[]> {
     return this.http.get<IBrand[]>(this.baseUrl + 'products/brands');
   }
